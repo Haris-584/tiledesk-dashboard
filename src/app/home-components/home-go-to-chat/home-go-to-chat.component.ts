@@ -107,7 +107,7 @@ export class HomeGoToChatComponent implements OnInit {
     localStorage.setItem("last_project", JSON.stringify(this.current_prjct));
     let baseUrl = this.CHAT_BASE_URL + "#/conversation-detail/";
     let url = baseUrl;
-    const myWindow = window.open(url, "_self", "GPT - Open Source Live Chat");
+    const myWindow = window.open(url, "_self", "ChatRep - Open Source Live Chat");
     myWindow.focus();
   }
 }

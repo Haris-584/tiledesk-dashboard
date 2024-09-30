@@ -3242,7 +3242,7 @@ export class ProjectEditAddComponent implements OnInit, OnDestroy {
     if (this.ip_restrictions_on && allowedIPsArray.length > 0) {
       swal({
         title: "Are you sure?",
-        text: "Adding IP-based access restrictions can break GPT access!",
+        text: "Adding IP-based access restrictions can break ChatRep access!",
         icon: "warning",
         buttons: true,
         dangerMode: true,

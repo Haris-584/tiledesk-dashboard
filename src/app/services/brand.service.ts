@@ -17,7 +17,7 @@ export class BrandService {
 
   _brand = {
     DASHBOARD: {
-      META_TITLE: "GPT Design Studio",
+      META_TITLE: "ChatRep Design Studio",
       // FAVICON_URL: "https://tiledesk.com/wp-content/uploads/2022/07/tiledesk_v13-300x300.png",
       FAVICON_URL: "assets/img/logos/favicon.ico",
       CUSTOM_COMPANY_HOME_LOGO: false,
@@ -38,10 +38,10 @@ export class BrandService {
       display_templates_category: true,
       display_change_pwd: true,
       EXTREME_MEASURES: true,
-      widget_logo_URL: "https://i.ibb.co/Kbf4Rfg/logo-short.png",
+      widget_logo_URL: "https://i.ibb.co/NnSP7JJ/Chat-Rep-circular-icon1.png",
 
       widget_default_footer:
-        "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by GPT</span></a>",
+        "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by ChatRep</span></a>",
       widget_launcher_button_placeholder:
         "assets/img/logos/custom-launcher-button-placeholder_v2.svg",
       footer: {
@@ -68,13 +68,13 @@ export class BrandService {
         display_social_proof_container: true,
       },
       handle_invitation_page: {
-        company_logo_45x45: "assets/img/logos/tiledesk-solo-logo.png",
+        company_logo_45x45: "assets/img/logos/ChatRep-solo-logo.png",
       },
     },
     WIDGET: {
-      LOGO_CHAT: "https://i.ibb.co/Kbf4Rfg/logo-short.png",
+      LOGO_CHAT: "https://i.ibb.co/NnSP7JJ/Chat-Rep-circular-icon1.png",
       POWERED_BY:
-        "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by GPT</span></a>",
+        "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://i.ibb.co/NnSP7JJ/Chat-Rep-circular-icon1.png'/><span> Powered by ChatRep</span></a>",
     },
     CHAT: {},
     CDS: {
@@ -87,18 +87,18 @@ export class BrandService {
       ],
     },
     COMMON: {
-      COMPANY_LOGO: "assets/img/logos/tiledesk_logo.svg",
-      COMPANY_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.svg",
-      BASE_LOGO: "assets/img/logos/tiledesk_logo.svg",
-      BASE_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.svg",
-      COMPANY_NAME: "GPT",
-      BRAND_NAME: "GPT",
+      COMPANY_LOGO: "assets/img/logos/ChatRep_logo2.svg",
+      COMPANY_LOGO_NO_TEXT: "assets/img/logos/ChatRep_logo_no_text.svg",
+      BASE_LOGO: "assets/img/logos/ChatRep_logo2.svg",
+      BASE_LOGO_NO_TEXT: "assets/img/logos/ChatRep_logo_no_text.svg",
+      COMPANY_NAME: "ChatRep",
+      BRAND_NAME: "ChatRep",
       COMPANY_SITE_NAME: "#",
       COMPANY_SITE_URL: "#",
       CONTACT_US_EMAIL: "support@tiledesk.com",
       CONTACT_SALES_EMAIL: "sales@tiledesk.com",
-      BRAND_PRIMARY_COLOR: "#3768FE",
-      BRAND_SECONDARY_COLOR: "#3768FE",
+      BRAND_PRIMARY_COLOR: "#8A239F",
+      BRAND_SECONDARY_COLOR: "#8A239F",
       DOCS: true,
       LOGOUT_ENABLED: true,
     },

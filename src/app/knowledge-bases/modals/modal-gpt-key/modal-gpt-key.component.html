@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="form-container">
-          <span class="input-label">GPT-Key</span>
+          <span class="input-label">ChatRep-Key</span>
           <div class="fake-input">
             <div class="fake-input-inner">
               <input *ngIf="gptkeyVisible" id="gptkey-key" class="input-bold" type="text" autocomplete="off"
@@ -47,7 +47,7 @@
             </g>
           </svg>
           <div>
-            <!- - Don't have a GPT-key?  - ->
+            <!- - Don't have a ChatRep-key?  - ->
             {{'KbPage.DonNotHaveGPTKey' | translate}}
             <span class="contact-us-via-email" (click)="contactSalesForChatGptKey()">
               <!- - Contact us and we will be glad to help you. - ->
@@ -89,18 +89,18 @@
           <i class="material-icons-outlined info-icon">help_outline</i>
           <div class="info-text">
             <p>
-              <!- - It seems like you haven't included your GPT-Key yet. - ->
+              <!- - It seems like you haven't included your ChatRep-Key yet. - ->
               {{'KbPage.YouHaveNotIncludedYourGPTKeyYet' | translate}}
             </p>
             <p>
-              <!- - A GPT-Key is necessary to successfully connect your Knowledge Base. - ->
+              <!- - A ChatRep-Key is necessary to successfully connect your Knowledge Base. - ->
               {{'KbPage.AGPTKeyIsNecessary' | translate}}
             </p>
           </div>
         </div>
         <!- - <p>Do you want to add it now?</p> - ->
         <div class="kb-question-text">
-          <!- -  Do you want to add a GPT-Key? - ->
+          <!- -  Do you want to add a ChatRep-Key? - ->
         {{'KbPage.DoYouWantToAddAGPTKey' | translate}}
         </div>
       </div>
@@ -110,7 +110,7 @@
           {{'KbPage.NotNow' | translate}}
         </button>
         <button id="addkb-btn" class="btn btn-primary" (click)="openSecretsModal()">
-          <!- - Enter GPT-Key - ->
+          <!- - Enter ChatRep-Key - ->
           {{'KbPage.EnterGPTKey' | translate}}
         </button>
       </div>

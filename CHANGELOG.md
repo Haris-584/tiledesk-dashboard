@@ -88,7 +88,7 @@
 
 ### 2.6.25
 - Deploys in production
-- Added support for GPT-4o in Knwoledge Base Preview
+- Added support for ChatRep-4o in Knwoledge Base Preview
 
 ### 2.6.24
 - Deploys in production

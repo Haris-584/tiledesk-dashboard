@@ -29,7 +29,7 @@
           <div class="add-kb-div">
             <button class="btn btn-primary" (click)="openSecretsModal()">
               <!-- {{ 'KbPage.Secrets' | translate }} -->
-              GPT-Key
+              ChatRep-Key
             </button>
             <button class="btn btn-primary" (click)="openAddKnowledgeBaseModal()" [disabled]="addButtonDisabled">
               {{ 'KbPage.AddKb' | translate }}
@@ -208,7 +208,7 @@
             </div>
 
             <!-- <div class="input-container">
-              <span class="input-label">GPT Key</span>
+              <span class="input-label">ChatRep Key</span>
               <input type="text" name="gptkey" class="custom-input" [(ngModel)]="newKb.gptkey" formControlName="gptkey"
                 placeholder="{{ 'KbPage.TypeKbKeyPlaceholder' | translate }}" (input)="onChangeInput($event)"
                 [class.invalid]="kbForm.controls.gptkey.errors?.required && kbForm.controls.gptkey.touched">
@@ -376,7 +376,7 @@
         </div>
 
         <div class="form-container">
-          <span class="input-label">GPT-Key</span>
+          <span class="input-label">ChatRep-Key</span>
           <div class="fake-input">
             <div class="fake-input-inner">
               <input *ngIf="gptkeyVisible" id="gptkey-key" class="input-bold" type="text" autocomplete="off"
@@ -404,7 +404,7 @@
             </svg>
 
             <div>
-              <!-- Don't have a GPT-key?  -->
+              <!-- Don't have a ChatRep-key?  -->
               {{'KbPage.DonNotHaveGPTKey' | translate}}
               <span class="contact-us-via-email" (click)="contactUsForChatGptKey()">
                 <!-- Contact us and we will be glad to help you. -->
@@ -456,11 +456,11 @@
           <i class="material-icons-outlined info-icon">help_outline</i>
           <div class="info-text">
             <p>
-              <!-- It seems like you haven't included your GPT-Key yet. -->
+              <!-- It seems like you haven't included your ChatRep-Key yet. -->
               {{'KbPage.YouHaveNotIncludedYourGPTKeyYet' | translate}}
             </p>
             <p>
-              <!-- A GPT-Key is necessary to successfully connect your Knowledge Base. -->
+              <!-- A ChatRep-Key is necessary to successfully connect your Knowledge Base. -->
               {{'KbPage.AGPTKeyIsNecessary' | translate}}
             </p>
           </div>
@@ -468,7 +468,7 @@
 
         <!-- <p>Do you want to add it now?</p> -->
         <div class="kb-question-text">
-          <!-- Do you want to add a GPT-Key? -->
+          <!-- Do you want to add a ChatRep-Key? -->
         {{'KbPage.DoYouWantToAddAGPTKey' | translate}}
         </div>
 
@@ -480,7 +480,7 @@
           {{'KbPage.NotNow' | translate}}
         </button>
         <button id="addkb-btn" class="btn btn-primary" (click)="openSecretsModal()">
-          <!-- Enter GPT-Key -->
+          <!-- Enter ChatRep-Key -->
           {{'KbPage.EnterGPTKey' | translate}}
         </button>
       </div>

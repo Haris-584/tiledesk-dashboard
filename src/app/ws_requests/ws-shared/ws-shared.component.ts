@@ -140,7 +140,7 @@ export class WsSharedComponent implements OnInit {
     let url =
       baseUrl + requestid + "/" + _requester_fullanme.trim() + "/active";
     this.logger.log("[WS-SHARED] openChatToTheSelectedConversation url ", url);
-    const myWindow = window.open(url, "_self", "GPT - Open Source Live Chat");
+    const myWindow = window.open(url, "_self", "ChatRep - Open Source Live Chat");
     myWindow.focus();
 
     // if (chatTabCount) {

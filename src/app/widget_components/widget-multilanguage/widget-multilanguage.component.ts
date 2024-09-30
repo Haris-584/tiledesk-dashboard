@@ -569,7 +569,7 @@ export class WidgetMultilanguageComponent
     } else {
       isdefault = false;
     }
-    this.currentTraslationClone["WELLCOME_TITLE"] = "Hi, welcome to GPT 👋";
+    this.currentTraslationClone["WELLCOME_TITLE"] = "Hi, welcome to ChatRep 👋";
     this.currentTraslationClone["WELLCOME_MSG"] =
       this.currentTraslationClone["WELCOME_MSG"];
     this.currentTraslationClone["WELLCOME"] =

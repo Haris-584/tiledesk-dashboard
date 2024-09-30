@@ -16,10 +16,10 @@ export class ModalPreviewSettingsComponent implements OnInit, OnChanges {
   namespaceid: string; 
   model_list: Array<{ name: string, value: string }>;
   models__list = [
-    { name: "GPT-3.5 Turbo (ChatGPT)", value: "gpt-3.5-turbo" }, 
-    { name: "GPT-4 (ChatGPT)", value: "gpt-4" },
-    { name: "GPT-4 Turbo Preview (ChatGPT)", value: "gpt-4-turbo-preview" }, 
-    { name: "GPT-4o (ChatGPT)", value: "gpt-4o" }
+    { name: "ChatRep-3.5 Turbo (ChatGPT)", value: "gpt-3.5-turbo" }, 
+    { name: "ChatRep-4 (ChatGPT)", value: "gpt-4" },
+    { name: "ChatRep-4 Turbo Preview (ChatGPT)", value: "gpt-4-turbo-preview" }, 
+    { name: "ChatRep-4o (ChatGPT)", value: "gpt-4o" }
   ];
 
   

@@ -366,7 +366,7 @@ export class KnowledgeBasesPreviousComponent implements OnInit, OnDestroy {
         gptkey = 'filled'
       }
       // console.log("[KNOWLEDGE BASES COMP] gptkey ", gptkey)
-      this.trackUserActioOnKB('Save Knowledge Base GPT-Key', gptkey)
+      this.trackUserActioOnKB('Save Knowledge Base ChatRep-Key', gptkey)
     })
   }
 
@@ -565,7 +565,7 @@ export class KnowledgeBasesPreviousComponent implements OnInit, OnDestroy {
   
   contactUsForChatGptKey() {
     this.closeSecretsModal()
-    window.open(`mailto:${this.contactUsEmail}?subject=I don't have a GPT-Key`);
+    window.open(`mailto:${this.contactUsEmail}?subject=I don't have a ChatRep-Key`);
   }
 
 
