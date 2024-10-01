@@ -313,7 +313,7 @@
 
             <!-- TERMS AND CONDITION -->
 
-            <label class="container" for="terms">
+            <!-- <label class="container" for="terms">
               {{ "iAgree" | translate }}
               <a *ngIf="display_terms_and_conditions_link" style="color: #03a5e8" target="_blank"
                 [href]="terms_and_conditions_url">
@@ -322,11 +322,11 @@
               <span *ngIf="display_terms_and_conditions_link"> {{ "And" | translate }} </span>
               <a style="color: #03a5e8" target="_blank" [href]="privacy_policy_url">
                 {{ privacy_policy_link_text }}
-              </a>
+              </a> -->
               <!-- [checked]="checkModel" -->
-              <input type="checkbox" formControlName="terms" id="terms" (change)="onChange($event)" required />
+              <!-- <input type="checkbox" formControlName="terms" id="terms" (change)="onChange($event)" required />
               <span class="checkmark"></span>
-            </label>
+            </label> -->
 
             <div *ngIf="formErrors.terms" class="is-danger" translate>
               {{ formErrors.terms }}
