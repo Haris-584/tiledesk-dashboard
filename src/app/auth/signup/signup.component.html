@@ -135,7 +135,7 @@
                     style="width: 105px" />
                 </a> -->
 
-              <a href="https://www.capterra.com/p/187541/Tiledesk/">
+              <a href="#">
                 <img border="0" src="https://capterra.s3.amazonaws.com/assets/images/gdm-badges/ca-value-2023.png"
                   style="width: 89px" />
               </a>
@@ -313,20 +313,20 @@
 
             <!-- TERMS AND CONDITION -->
 
-            <!-- <label class="container" for="terms">
+         <label class="container" for="terms">
               {{ "iAgree" | translate }}
               <a *ngIf="display_terms_and_conditions_link" style="color: #03a5e8" target="_blank"
-                [href]="terms_and_conditions_url">
+                href="#">
                 {{ "TermsAndConditions" | translate }}
               </a>
               <span *ngIf="display_terms_and_conditions_link"> {{ "And" | translate }} </span>
-              <a style="color: #03a5e8" target="_blank" [href]="privacy_policy_url">
+              <a style="color: #03a5e8" target="_blank" href="#">
                 {{ privacy_policy_link_text }}
-              </a> -->
+              </a> 
               <!-- [checked]="checkModel" -->
-              <!-- <input type="checkbox" formControlName="terms" id="terms" (change)="onChange($event)" required />
+               <input type="checkbox" formControlName="terms" id="terms" (change)="onChange($event)" required />
               <span class="checkmark"></span>
-            </label> -->
+            </label> 
 
             <div *ngIf="formErrors.terms" class="is-danger" translate>
               {{ formErrors.terms }}

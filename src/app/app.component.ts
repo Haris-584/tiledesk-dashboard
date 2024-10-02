@@ -586,7 +586,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
       const notification = new Notification(recipient_fullname, {
         body: notificationBody,
         dir: "auto",
-        icon: "https://console.tiledesk.com/chat/assets/img/icon.png",
+        icon: "https://i.ibb.co/xzyFjXH/Chat-Rep-fav-icon.png",
       });
       const self = this;
       notification.onclick = () => {
